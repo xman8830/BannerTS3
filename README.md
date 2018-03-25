@@ -1,8 +1,10 @@
 # BannerTS3
 Banner to teamspeak3
-##Version 1.2
+<br>
+### Version 1.2
+
 <hr>
-###Function
+#### Main Features
 - username
 - admins online
 - channel online
@@ -14,5 +16,5 @@ Banner to teamspeak3
 - time
 - date
 - Name day (Polish version)
-
+<hr>
 <img src="https://i.imgur.com/EFAzDD8.jpg" alt="SS"/>
