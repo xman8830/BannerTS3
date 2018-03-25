@@ -50,6 +50,7 @@ if ($weather['status']) {
 	$json = file_get_contents('https://api.xman8830.ovh/weather?key='.$config['apikey'].'&ip=' . $ip);
 	$data = json_decode($json, true);
 	$weathericonfile = 'weathericon/' . $data['icon'] . '.png';
+}
 	foreach ($srv['clients'] as $client) {
 		$groups = explode(',', $client['client_servergroups']);
 		if ($client["connection_client_ip"] == $ip) {
@@ -61,7 +62,6 @@ if ($weather['status']) {
 			}
 		}
 	}
-}
 if ($config['lang'] == 'PL') $month = array(1 => 'stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'wrzesnia', 'pazdziernika', 'listopada', 'grudnia');
 if ($config['lang'] == 'EN') $month = array(1 => 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december');
 if ($config['lang'] != 'EN' and $config['lang'] != 'PL') $month = array(1 => 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december');
