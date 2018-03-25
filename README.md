@@ -1,8 +1,8 @@
 # BannerTS3
 Banner to teamspeak3
-Version 1.2
-<br />
-Function:
+##Version 1.2
+<hr>
+###Function
 - username
 - admins online
 - channel online
