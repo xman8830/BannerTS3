@@ -31,6 +31,7 @@
 ### Plans
 - Fanpage likes
 - Random msg
-- Add dark Weather icon
+- dark Weather icon
+- name day (EN lang)
 
 [![Website screenshot](https://i.imgur.com/EFAzDD8.jpg)](https://i.imgur.com/EFAzDD8.jpg)
