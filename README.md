@@ -25,7 +25,10 @@
 - add Option screen bot refresh or refresh web
 
 
-
+if option "bot" start bot:
+- <code>chmod 777 run</code>
+- <code>./run start</code> start bot
+- <code>./run stop</code> stop bot
 ### Plans
 - Fanpage likes
 - Random msg
