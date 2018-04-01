@@ -12,7 +12,7 @@ $config['ts3']['login_port'] = '9987';  //Port Server/Port serwera
 $config['ts3']['query_port'] = '10011'; //Port Query
 $config['ts3']['login'] = 'serveradmin'; //Login Query
 $config['ts3']['password'] = '';  //Password Query/Hasło Query
-
+$config['settings'] = 'auto'; // "auto" - refresh website or "bot" - screen bot refresh 
 $config['banner']['format'] = 'png'; //Format png/jpg
 $config['banner']['background'] = 'img/banner.png'; //link to background png/jpg/Link do tła png/jpg  
 $admingroups = array(14,13,15); //id admins groups/Id grup administracyjnych
