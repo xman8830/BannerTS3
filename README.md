@@ -2,7 +2,7 @@
 
 <hr>
 
-**Banner** - version 1.2<br>
+**Banner** - version 1.3<br>
 
 <hr>
 
@@ -21,10 +21,8 @@
 - Name day (Polish version)
 - Weather system
 
-#### Changelog
-- add Name day
-- add option edit timezone
-- add option change color
+#### Changelog in v 1.3
+- add Option screen bot refresh or refresh web
 
 
 
