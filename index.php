@@ -145,5 +145,4 @@ function alert($msg)
 {
     echo '<b>Error: </b>' . $msg;
 }
-
 ?>
