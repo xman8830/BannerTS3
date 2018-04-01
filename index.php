@@ -141,8 +141,10 @@ function onImage($img, $x, $y, $text, $font, $fontsize, $color)
 	}
     imagettftext($img, $fontsize, 0, $x, $y, ImageColorAllocate($img, $r, $g, $b), $fontfile, $text);
 }
+
 function alert($msg)
 {
     echo '<b>Error: </b>' . $msg;
 }
+
 ?>
