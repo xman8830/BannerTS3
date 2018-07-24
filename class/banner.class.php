@@ -82,7 +82,7 @@ class banner
         "03-12" => "Grzegorza, Justyna, Alojzego",
         "03-13" => "Bozeny, Krystyny",
         "03-14" => "Leona, Matyldy, Lazarza",
-        "03-16" => "Longina, Klemensa, Ludwiki",
+        "03-15" => "Longina, Klemensa, Ludwiki",
         "03-16" => "Izabeli, Oktawii, Hilarego",
         "03-17" => "Patryka, Zbigniewa, Gertrudy",
         "03-18" => "Cyryla, Edwarda, Boguchwaly",
