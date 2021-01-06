@@ -6,7 +6,6 @@
 ########################################									
 date_default_timezone_set('Europe/Warsaw');//Time zone/Strefa czasowa
 $config['cache_name'] = 'EDIT_ME'; //Name cache/Nazwa cache
-$config['apikey'] = ''; //weather Api key https://xman8830.ovh/contact
 $config['ts3']['host'] = '';  //Host IP
 $config['ts3']['login_port'] = '9987';  //Port Server/Port serwera
 $config['ts3']['query_port'] = '10011'; //Port Query
