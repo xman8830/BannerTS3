@@ -52,7 +52,7 @@ if ($config['settings'] == 'auto') {
 	$srv = json_decode($ts3, true);	
 }
 if ($weather['status']) {
-	$json = file_get_contents('https://api.xman8830.ovh/weather?key='.$config['apikey'].'&ip=' . $ip);
+	$json = file_get_contents('https://api.xman8830.ovh/weather?ip=' . $ip);
 	$data = json_decode($json, true);
 	$weathericonfile = 'weathericon/' . $data['icon'] . '.png';
 }
